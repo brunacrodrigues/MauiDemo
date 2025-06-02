@@ -18,7 +18,7 @@
             navPage.BarBackgroundColor = Colors.Yellow;
             navPage.BarTextColor = Colors.Blue;
 
-            var window = new Window(new StackLayoutDemo());
+            var window = new Window(new GridLayoutDemo());
 
 
             return window;
