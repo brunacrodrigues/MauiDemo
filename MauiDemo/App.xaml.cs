@@ -18,7 +18,7 @@
             navPage.BarBackgroundColor = Colors.Yellow;
             navPage.BarTextColor = Colors.Blue;
 
-            var window = new Window(new TabbedPageDemo());
+            var window = new Window(new StackLayoutDemo());
 
 
             return window;
