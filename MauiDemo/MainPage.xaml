@@ -6,7 +6,9 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
+            Spacing="25"
+            VerticalOptions="Center">
+            
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
@@ -19,17 +21,25 @@
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
+                Text="Bem-Vindo ao .NET Multi-platform App UI"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Clique aqui" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Center" />
+
+            <Button 
+                Text="Outro botão" />
+            <Button>
+                <Button.Text>
+                    Outro Button
+                </Button.Text>
+            </Button>
         </VerticalStackLayout>
     </ScrollView>
 

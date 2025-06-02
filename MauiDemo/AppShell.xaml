@@ -4,11 +4,17 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiDemo"
-    Title="MauiDemo">
+    Title="MauiDemo"
+    Shell.BackgroundColor="LightBlue"
+    Shell.ForegroundColor="White"
+    Shell.TitleColor="#512BD4"
+    Shell.DisabledColor="Gray"
+    Shell.UnselectedColor="LightGray"
+    Shell.NavBarHasShadow="False">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:MinhaPagina}"
         Route="MainPage" />
 
 </Shell>
