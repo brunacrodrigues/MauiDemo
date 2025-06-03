@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.AbsoluteLayoutDemo"
+             Title="Absolute Layout Demo">
+    
+    <!--<AbsoluteLayout>
+        <BoxView Color="Blue"
+                 AbsoluteLayout.LayoutBounds="100, 50, 150, 200" />
+
+        <Button Text="Clique em mim!"
+                AbsoluteLayout.LayoutBounds="250, 50, 100, 100" />
+        
+    </AbsoluteLayout>-->
+
+    <AbsoluteLayout>
+
+        <!--<BoxView Color="Red"
+        AbsoluteLayout.LayoutFlags="XProportional"
+        AbsoluteLayout.LayoutBounds="0, 50, 30, 30" />
+
+        <BoxView Color="Red"
+        AbsoluteLayout.LayoutFlags="XProportional"
+        AbsoluteLayout.LayoutBounds="0.6, 100, 30, 30" />
+
+        <BoxView Color="Red"
+        AbsoluteLayout.LayoutFlags="XProportional"
+        AbsoluteLayout.LayoutBounds="1, 150, 30, 30" />-->
+
+        <!--<BoxView Color="Red"
+                 AbsoluteLayout.LayoutFlags="YProportional"
+                 AbsoluteLayout.LayoutBounds="10, 0, 30, 30" />
+
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutFlags="YProportional"
+                 AbsoluteLayout.LayoutBounds="100, 0.6, 30, 30" />
+
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutFlags="YProportional"
+                 AbsoluteLayout.LayoutBounds="200, 1, 30, 30" />-->
+
+        <!--<BoxView Color="Red"
+         AbsoluteLayout.LayoutFlags="PositionProportional"
+         AbsoluteLayout.LayoutBounds=".5, .5, 100, 100" />
+
+        <BoxView Color="Yellow"
+         AbsoluteLayout.LayoutFlags="PositionProportional"
+         AbsoluteLayout.LayoutBounds="1, .5, 25, 100" />
+
+        <BoxView Color="Blue"
+         AbsoluteLayout.LayoutFlags="PositionProportional"
+         AbsoluteLayout.LayoutBounds="0, .5, 25, 100" />
+
+        <BoxView Color="SeaGreen"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                 AbsoluteLayout.LayoutBounds=".5, 0, 100, 25" />
+
+        <BoxView Color="Indigo"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"
+                 AbsoluteLayout.LayoutBounds=".5, 1, 100, 25" />-->
+
+
+        <!--<Button Text="Click me"
+                        AbsoluteLayout.LayoutBounds="0.9, 0.1, 100, 50"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="Click me"
+                 AbsoluteLayout.LayoutBounds="0.9, 0.2, 100, 50"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="Click me"
+                 AbsoluteLayout.LayoutBounds="0.9, 0.3, 100, 50"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="Click me"
+                 AbsoluteLayout.LayoutBounds="0.9, 1, 100, 50"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>-->
+
+        <BoxView Color="Red"
+                 AbsoluteLayout.LayoutBounds="0.1, 0.1, 0.3, 0.3"
+                 AbsoluteLayout.LayoutFlags="All"/>
+        
+        <BoxView Color="Green"
+                 AbsoluteLayout.LayoutBounds="0.5, 0.5, 150, 150"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        
+        <BoxView Color="Blue"
+                 AbsoluteLayout.LayoutBounds="200, 100, 0.3, 100"
+                 AbsoluteLayout.LayoutFlags="WidthProportional"/>
+
+    </AbsoluteLayout>
+</ContentPage>
