@@ -18,11 +18,18 @@ namespace MauiControls
 
             //navPage.BarBackgroundColor = Colors.Yellow;
             //navPage.BarTextColor = Colors.Blue;
+            var pagina = new MauiCommandControls();
+            var navPage = new NavigationPage(pagina)
+            {
+                BarBackgroundColor = Colors.Blue,
+                BarTextColor = Colors.White
+            };
+            return new Window(navPage);
 
-            var window = new Window(new MauiPresentationControls());
+            //var window = new Window(new MauiCommandControls());
 
 
-            return window;
+            //return window;
         }
     }
 }
