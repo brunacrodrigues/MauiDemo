@@ -88,10 +88,19 @@
                               43,60 48,30 100,30"
                       Stroke="Red" />
 
-            <Path Data="M 10,100 L 100,100 100,50Z"
+            <!--<Path Data="M 10,100 L 100,100 100,50Z"
                     Aspect="Uniform"
                     HorizontalOptions="Center"
-                    Stroke="Black"/>
+                    Stroke="Black"/>-->
+
+            <Path Data="M 10,100 L 100,100 100,50Z"
+                  Aspect="Uniform"
+                  HorizontalOptions="Center"
+                  Stroke="Black"
+                  StrokeThickness="5"
+                  Fill="White"
+                  HeightRequest="100"
+                  WidthRequest="100"/>
 
             <Border Stroke="#C49B33"
                     StrokeThickness="4"
