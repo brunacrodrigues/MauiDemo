@@ -18,7 +18,7 @@ namespace MauiControls
 
             //navPage.BarBackgroundColor = Colors.Yellow;
             //navPage.BarTextColor = Colors.Blue;
-            var pagina = new MauiEditControls();
+            var pagina = new MauiCollectionControls();
             var navPage = new NavigationPage(pagina)
             {
                 BarBackgroundColor = Colors.Blue,
