@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiControls", "MauiControl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiDataBinding", "MauiDataBinding\MauiDataBinding.csproj", "{9957B190-B984-4EE2-A81C-BAD275C8BE9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.csproj", "{ADCF15FF-FA53-4267-8DCF-07D90FC1FBE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{9957B190-B984-4EE2-A81C-BAD275C8BE9F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{9957B190-B984-4EE2-A81C-BAD275C8BE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9957B190-B984-4EE2-A81C-BAD275C8BE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCF15FF-FA53-4267-8DCF-07D90FC1FBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCF15FF-FA53-4267-8DCF-07D90FC1FBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCF15FF-FA53-4267-8DCF-07D90FC1FBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCF15FF-FA53-4267-8DCF-07D90FC1FBE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
