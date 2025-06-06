@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiResources", "MauiResources\MauiResources.csproj", "{50D13D10-0B2C-4052-8FDC-AC72978E11EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DividirConta", "DividirConta\DividirConta.csproj", "{756DB829-8CB8-4C22-B256-DD257BE7557B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{50D13D10-0B2C-4052-8FDC-AC72978E11EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{50D13D10-0B2C-4052-8FDC-AC72978E11EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D13D10-0B2C-4052-8FDC-AC72978E11EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756DB829-8CB8-4C22-B256-DD257BE7557B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756DB829-8CB8-4C22-B256-DD257BE7557B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756DB829-8CB8-4C22-B256-DD257BE7557B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756DB829-8CB8-4C22-B256-DD257BE7557B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
